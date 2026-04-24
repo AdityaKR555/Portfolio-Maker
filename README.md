@@ -37,7 +37,7 @@ A modern web app to create and preview developer portfolios in real-time, with t
 
 ## 📸 Screenshots
 
-<img src="/image.png" alt="Portify Screenshot" width="600" />
+<img src="public/image.png" alt="Portify Screenshot" width="600" />
 
 ---
 
