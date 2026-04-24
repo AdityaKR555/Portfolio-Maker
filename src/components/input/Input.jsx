@@ -4,12 +4,12 @@ import React, { useState } from "react";
 function Input({ data, setData }) {
   const [skillInput, setSkillInput] = useState("");
 
-  // 🔹 Handle simple fields
+  //  Handle simple fields
   const handleChange = (field, value) => {
     setData({ ...data, [field]: value });
   };
 
-  // 🔹 Skills handlers
+  //  Skills handlers
   const addSkill = (e) => {
     e.preventDefault();
     if (!skillInput.trim()) return;
@@ -26,7 +26,7 @@ function Input({ data, setData }) {
     setData({ ...data, skills: updated });
   };
 
-  // 🔹 Projects handlers
+  //  Projects handlers
 
   const addProject = () => {
     setData({
